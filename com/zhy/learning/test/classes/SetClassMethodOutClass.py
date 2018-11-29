@@ -24,7 +24,7 @@ print('\n')
 # 该代码会报异常
 # bbb = AAA()
 # print('call the new method for another instance : ...')
-# bbb.set_amethod()   # 验证MethodType为某个列的实例设置的方法，对于别的实例不起作用
+# bbb.set_amethod()   # 验证MethodType为某个类的实例设置的方法，对于别的实例不起作用
 # print('\n')
 
 print('now we create new methd ,then give it to the class')

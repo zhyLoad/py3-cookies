@@ -9,6 +9,10 @@ print(" type(123.134) = ",type(123.134))
 
 print(" type('abc')= ",type('abc'))
 
+print(" isinstance('abc',str) = ",isinstance('abc',str))
+
+print(" isinstance(123.134,(str,float)) = ",isinstance(123.134,(str,float)))
+
 
 class A(object):
     pass
@@ -16,6 +20,8 @@ print(" type(A)= ",type(A))
 
 a = A()
 print(" type(a)= ",type(a))
+
+print(" isinstance(A,(str,float,type)) = ",isinstance(A,(str,float,type)))
 
 
 def funcB():
