@@ -61,4 +61,4 @@ dt.create_file(new_file)
 print('the file : '+new_file+' \'s last ext name = ',dt.get_last_ext_name(new_file)[1])
 change_name_file = test_dir+"\\"+'111.txt'
 dt.rename_file(new_file,change_name_file)
-dt.delete_file(change_name_file)
+#dt.delete_file(change_name_file)
